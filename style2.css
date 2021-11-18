@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-color: #222222;
+    color: white;
+    padding: 19px 0;
+}
+.container {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+    text-decoration: none;
+    margin-right: 41px;
+}
+.header__item:not(:last-child) {
+    margin-right: 33px;
+}
+.promo {
+    background: #F1E4E6;
+    height: 764px;
+}
+.promo__title {
+    max-width: 377px;
+    padding-left: 20px;
+    border-left: 12px solid red;
+}
+.promo__wrap {
+    height: 100%;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    background-image: url(../Course\ figma/image/man.png);
+    background-repeat: no-repeat;
+    background-position: bottom -228px;
+}
+.promo__decor {
+    color:#F16D7F;
+}
+.category {
+    margin: 100px 0 0 0;
+}
+.category__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.category__item {
+    width: 100%;
+    height: 180px;
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    flex-direction: column;
+}
+.category__item:not(:last-child) {
+    width: 360px;
+    height: 260px;
+    margin: 0 0 30px 0;
+}
+.item1 {
+    background-image: url(../Course\ figma/image/women.png);
+    background-repeat: no-repeat;
+}
+.item2 {
+    background-image: url(../Course\ figma/image/men.png);
+    background-repeat: no-repeat;
+}
+.item3 {
+    background-image:url(../Course\ figma/image/kids.png);
+    background-repeat: no-repeat;
+}
+.item4 {
+    background-image:url(../Course\ figma/image/accessoire.png);
+    background-repeat: no-repeat;
+}
+.feature_items {
+    width: 336px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.products__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.icon {
+    width: 360px;
+    height: 582px;
+    gap: 30px;
+}
+.button {
+    width: 212px;
+    height: 48px;
+    color: #FF6A6A;
+    border-color: #FF6A6A;
+    text-align: center;
+}
+.product__button {
+    display: flex;
+    align-items: center;
+}
